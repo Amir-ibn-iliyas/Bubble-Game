@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+button{
+    /* padding: ; */
+    width: 15vw;
+    padding: 0 1vw;
+    font-size: 3.5vw ;
+    font-weight: 500;
+    border-radius: 2vw;
+    background-color: #222b22;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 0 10px 5px  #1a1a1a;
+}
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: #a3c9a2;
+}
+/* pannel */
+#pannel{
+    display: none;
+    overflow: hidden;
+    width: 80%;
+    height: 80%;
+    background-color: #fff;
+    border-radius: 10px;
+}
+/* pannel-top */
+#ptop{
+    display: flex;
+    align-items: center;
+    padding: 0 30%;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    background-color: #354a35;
+}
+
+.elem{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: white;
+
+}
+.elem h2{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.box{
+    padding:  10px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #fff;
+    color: #415d41;
+    border-radius: 5px;
+
+}
+/* pannel-bottom */
+
+#pbtm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 20px;
+    padding-right: 15px;
+    width: 100%;
+    height: calc(100% - 100px);
+
+}
+#pbtm h1{
+    flex-direction: column;
+    display: flex;
+    /* background-color:  #415d41; */
+}
+
+
+.bubble{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #354a35;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #dbe2db;
+    font-weight: 600;
+}
+
+.bubble:hover{
+    cursor: pointer;
+    background-color: #222b22;
+}
